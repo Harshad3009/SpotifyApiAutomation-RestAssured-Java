@@ -12,8 +12,6 @@ import utils.DataLoader;
 
 import java.util.Random;
 
-import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.post;
 import static utils.FakerUtils.generateDescription;
 import static utils.FakerUtils.generateName;
 
