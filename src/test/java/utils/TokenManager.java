@@ -2,13 +2,11 @@ package utils;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import org.testng.annotations.Test;
 
 import java.time.Instant;
 import java.util.HashMap;
-import java.util.Optional;
 
-import static SpotifyOAuth.Tests.BaseApi.postAccount;
+import static Api.BaseApi.postAccount;
 
 public class TokenManager {
 

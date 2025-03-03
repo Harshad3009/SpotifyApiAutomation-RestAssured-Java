@@ -1,4 +1,4 @@
-package SpotifyOAuth.Tests;
+package RestResources;
 
 public enum StatusCode {
 

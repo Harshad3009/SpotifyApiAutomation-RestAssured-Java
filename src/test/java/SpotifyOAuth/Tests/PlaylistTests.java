@@ -1,16 +1,10 @@
 package SpotifyOAuth.Tests;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import Api.PlaylistApi;
+import RestResources.StatusCode;
 import io.qameta.allure.*;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.filter.log.LogDetail;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pojos.GetPlayList.Playlist;
 import pojos.generic.OuterError;

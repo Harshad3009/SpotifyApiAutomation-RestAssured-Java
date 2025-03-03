@@ -1,18 +1,11 @@
-package SpotifyOAuth.Tests;
+package Api;
 
 import io.qameta.allure.Step;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.filter.log.LogDetail;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
-import org.testng.annotations.BeforeClass;
 import pojos.GetPlayList.Playlist;
 
-import static SpotifyOAuth.Tests.Endpoints.CREATE_PLAYLIST;
-import static SpotifyOAuth.Tests.Endpoints.PLAYLIST;
+import static RestResources.Endpoints.CREATE_PLAYLIST;
+import static RestResources.Endpoints.PLAYLIST;
 import static io.restassured.RestAssured.given;
 import static utils.TokenManager.getToken;
 
