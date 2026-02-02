@@ -25,8 +25,8 @@ jobs:
       - name: Upload test result XML
         run: |
           for file in target/surefire-reports/TEST-*.xml; do
-            curl -X POST "https://uncompliantly-populous-cherilyn.ngrok-free.dev/upload-report" \
-              -H "X-API-KEY: qad_4c46b1a356f24b9e89304a4af204aadd" \
+            curl -X POST "https://qa-dashboard-api.onrender.com/upload-report" \
+              -H "X-API-KEY: qad_e8be0996c7ad44c4a2164373c582453b" \
               -F "files=@$file"
           done
 
